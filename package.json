@@ -1,0 +1,16 @@
+{
+  "name": "projet-perso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db:connect": "psql -U jennifer -d plongee",
+    "db:create": "psql -U jennifer -d plongee -f src/data/create_tables.sql",
+    "db:seed": "psql -U jennifer -d plongee -f src/data/seeding_tables.sql",
+    "db:reset": "npm run db:create && npm run db:seed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
