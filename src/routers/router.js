@@ -6,6 +6,7 @@ import * as categoryController from "../controllers/categoryController.js";
 
 router.get("/articles", articleController.getAllArticles);
 router.get("/articles/:articleId", articleController.getOneArticle);
+router.post("/articles", articleController.createArticle);
 
 router.get("/categories", categoryController.getAllCategories);
 
