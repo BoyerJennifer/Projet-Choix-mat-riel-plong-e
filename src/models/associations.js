@@ -1,5 +1,5 @@
-import { Article } from "./Article.js";
-import { Category } from "./Category.js";
+import { Article } from "./article.js";
+import { Category } from "./category.js";
 
 // Category can have MANY Articles
 // Articles cans have ONE Category

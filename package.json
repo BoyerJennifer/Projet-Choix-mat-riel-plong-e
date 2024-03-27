@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "nodemon test.js",
+    "dev": "nodemon app.js",
     "db:connect": "psql -U jennifer -d plongee",
     "db:create": "psql -U jennifer -d plongee -f src/data/create_tables.sql",
     "db:seed": "psql -U jennifer -d plongee -f src/data/seeding_tables.sql",
@@ -16,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "pg": "^8.11.3",
     "sequelize": "^6.37.1"
   },
