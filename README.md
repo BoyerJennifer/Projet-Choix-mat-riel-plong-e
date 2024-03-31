@@ -2,7 +2,9 @@
 
 **Statut** : En cours de développement
 
-Cette API REST est conçue pour gérer les informations relatives aux catégories et articles de matériels de plongée. Elle permet de créer, lire, mettre à jour et supprimer (CRUD) des données concernant les différentes catégories de matériel ainsi que les articles spécifiques à chacune de celles-ci.
+Cette API REST est conçue pour gérer les informations relatives aux catégories et aux articles de matériels de plongée. Elle permet à tous les utilisateurs de lire et de visualiser les données sur les différentes catégories de matériel ainsi que les articles spécifiques à chacune d'elles. Cependant, les opérations de création, mise à jour et suppression (CRUD) sont exclusivement réservées aux utilisateurs avec des privilèges administratifs.
+
+L'API intègre un système d'authentification qui distingue les utilisateurs normaux des administrateurs. Tandis que le public général peut accéder librement aux informations en lecture seule, les administrateurs, après s'être authentifiés, disposent de fonctionnalités étendues pour gérer le contenu. Cette structure de contrôle d'accès garantit que seules les personnes autorisées peuvent modifier les informations, assurant ainsi l'intégrité et la sécurité des données gérées par l'API.
 
 ## Fonctionnalités
 
