@@ -2,11 +2,11 @@
 
 **Statut** : En cours de développement
 
-Cette API REST est conçue pour gérer les informations relatives aux catégories et articles sur le matériel de plongée. Elle permet de créer, lire, mettre à jour et supprimer des données concernant les différentes catégories de matériel ainsi que les articles spécifiques à chaque catégorie.
+Cette API REST est conçue pour gérer les informations relatives aux catégories et articles de matériels de plongée. Elle permet de créer, lire, mettre à jour et supprimer (CRUD) des données concernant les différentes catégories de matériel ainsi que les articles spécifiques à chacune de celles-ci.
 
 ## Fonctionnalités
 
-**Gestion des catégories**: Ajout, consultation, modification et suppression de catégories.
+**Gestion des catégories**: Ajout, consultation, modification et suppression de catégories.  
 **Gestions des Articles**: Ajout, consultation, modification et suppression d'articles liés aux catégories de matériel de plongée.
 
 ## Technologies Utilisées
